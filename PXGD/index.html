@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./database.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>PokéXrossGenDex</title>
+</head>
+<body>
+    <header id="header">
+        <h1>Generation V</h1>
+        <div class="carts">
+            <button id="B1" onclick="loadV('B1')"></button>
+            <button id="W1" onclick="loadV('W1')"></button>
+            <button id="B2" onclick="loadV('B2')"></button>
+            <button id="W2" onclick="loadV('W2')"></button>
+        </div>
+        <h1>Generation VI</h1>
+        <div class="carts">
+            <button id="X1" onclick="loadVI('X1')"></button>
+            <button id="Y1" onclick="loadVI('Y1')"></button>
+            <button id="OR" onclick="loadVI('OR')"></button>
+            <button id="AS" onclick="loadVI('AS')"></button>
+        </div>
+        <br>
+        <h1>Select one of each Generation</h1>
+    </header>
+    <main>
+        <br>
+        <div class="XrossGen">
+            <div id="genV" class="inline"></div>
+            <div id="Transporter" class="inline"></div>
+            <div id="genVI" class="inline"></div>
+        </div>
+        <button id="begin-search" onclick="loadSearch()">Search</button>
+        <div id="loaded-pokes"></div>
+    </main>
+    <footer>
+        <br>
+        <br>
+        <p>Website by Bolternon | TODO: Add Unova, Sinnoh, Johto, & Kanto | Sewaddle | Gen5 carts can use PokeWalker via TM++ | Images taken from Bulbapedia.</p>
+    </footer>
+</body>
+<script src="./script.js"></script>
+</html>

@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    cursor: default;
+}
+button {
+    width: 56px;
+    height: 56px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+#B1 {
+    background-image: url("./i/B1.png");
+}
+#W1 {
+    background-image: url("./i/W1.png");
+}
+#B2 {
+    background-image: url("./i/B2.png");
+}
+#W2 {
+    background-image: url("./i/W2.png");
+}
+#X1 {
+    background-image: url("./i/X1.png");
+}
+#Y1 {
+    background-image: url("./i/Y1.png");
+}
+#OR {
+    background-image: url("./i/OR.png");
+}
+#AS {
+    background-image: url("./i/AS.png");
+}
+
+.inline {
+    display: inline-block;
+}
+#genV, #genVI, #Transporter {
+    width: 56px;
+    height: 56px;
+    background-image: url("./i/00.png");
+}
+#Transporter {
+    background-image: url("./i/01.png");
+}
+#begin-search {
+    margin: auto;
+    display: none;
+    height: 24px;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+
+.pokemon {
+    width: 96px;
+    height: 96px;
+}

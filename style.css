@@ -1,0 +1,70 @@
+:root {
+    --width: 640px;
+}
+@media screen and (max-width: 640px) {
+    :root {
+        --width: 100%;
+    }
+}
+@keyframes scrollingBG {
+    0% {
+        background-position: 0px 0px;
+    }
+    100% {
+        background-position: -32px 0px;
+    }
+}
+* {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    cursor: default;
+}
+html {
+    background-image: url("./BG.png");
+    animation: scrollingBG 1s linear infinite;
+}
+a {
+    color: black;
+    cursor: pointer;
+}
+.topheader {
+    background-color: #181818;
+    text-align: left;
+    border-bottom: 2px solid #94ef18;
+}
+.botheader {
+    height: 22px;
+    background-color: #4a4a4a;
+    border-top: 2px solid #181818;
+    border-bottom: 2px solid #949494;
+    box-shadow: 0 2px 0 #181818, 0 -2px 0 inset #181818;
+}
+.title {
+    color: white;
+    font-size: xx-large;
+    display: inline-block;
+}
+.links {
+    width: 200px;
+    background-color: #dedede;
+    border-radius: 100px;
+    font-size: small;
+    display: inline-block;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(#636363, black);
+    background-color: black;
+    border-top: 2px solid black;
+}
+.footer > p {
+    font-size: x-large;
+    color: white;
+}
+.footer > p > a {
+    color: white;
+    text-decoration: none;
+}

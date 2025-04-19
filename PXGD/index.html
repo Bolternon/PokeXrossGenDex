@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./database.js"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>PokéXrossGenDex</title>
+</head>
+<body onload="displayCarts()">
+    <header>
+        <div class="topheader">
+            <div class="title">
+                <p>PXGD</p>
+            </div>
+            <div class="links">
+                <a href="./index.html">PXGD</a>
+                <a href="">PXGD+</a>
+                <a href="">PXGD++</a>
+            </div>
+        </div>
+        <div class="botheader">
+            <div class="carts">
+                <div id="carts">
+                    <img src="../c/00.png">
+                </div>
+            </div>
+            <button id="scan" title="Begin Pokédex Statistics" onclick="scanPokedex()">Scan Pokédex</button>
+        </div>
+        <div id="cardselect">
+            <div id="cards">
+                <img src="../c/US.png">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="section">
+                <img src="" id="logo">
+            </div>
+            <br>
+            <div class="section">
+                <div id="completion">
+                    <div id="caught"></div>
+                    <div id="uncaught"></div>
+                </div>
+                <p id="complete-text"></p>
+            </div>
+            <br>
+            <div class="section">
+                <div id="advanced-completion">
+
+                </div>
+                <p id="statistic"></p>
+            </div>
+            <br>
+            <div class="section">
+                <div id="pokedex">
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </main>
+    <footer>
+        <div class="footer">
+            <p><a href="https://bolternon.github.io">©Bolternon</a> | <a href="https://discord.gg/xZkmzHv">©ZetcherNet</a></p>
+        </div>
+    </footer>
+</body>
+</html>
